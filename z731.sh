@@ -21,5 +21,5 @@ cp z731/tree_pages.zh_TW z731/read_tree_pages.zh_TW
 tree -i -f pages* | sed 's/.md$//g' > z731/tree_pages_all
 awk -F '/' '{for(i=0;i<=NF-1;i++)printf("%s\t",$(NF-i));printf("\n");}' z731/tree_pages_all | sort > z731/tree_pages_all_revert
 cp z731/tree_pages_all_revert z731/read_tree_pages_all_revert
-grep -n "http" pages*/*/* | sort > z731/grep_pages_all_http
+grep -n -E "https?://" pages*/*/* | sort > z731/grep_pages_all_http
 
