@@ -18,3 +18,4 @@ tree pages.zh_TW | sed 's/.md$//g;s/├── /\t/g;s/│   /\t/g;s/│   /\t/
 cp z731/tree_pages z731/read_tree_pages
 cp z731/tree_pages.zh z731/read_tree_pages.zh
 cp z731/tree_pages.zh_TW z731/read_tree_pages.zh_TW
+tree -i -f pages* | sed 's/.md$//g' > z731/tree_pages_all
