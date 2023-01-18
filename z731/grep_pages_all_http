@@ -155,8 +155,6 @@ pages.zh/common/gpg-zip.md:4:> 更多信息：<https://www.gnupg.org/documentati
 pages.zh/common/gpg.md:5:> 更多信息：<https://gnupg.org>.
 pages.zh/common/gpg2.md:5:> 更多信息：<https://docs.releng.linuxfoundation.org/en/latest/gpg.html>.
 pages.zh/common/gpgv.md:4:> 更多信息：<https://www.gnupg.org/documentation/manuals/gnupg/gpgv.html>.
-pages.zh/common/gunicorn.md:26:- 通过 https 运行应用程序：
-pages.zh/common/gunicorn.md:3:> Python 的 WSGI http 服务器。
 pages.zh/common/gunicorn.md:4:> 更多信息：<https://gunicorn.org/>.
 pages.zh/common/heroku.md:4:> 更多信息：<https://www.heroku.com/>.
 pages.zh/common/hexdump.md:4:> 更多信息：<https://manned.org/hexdump>.
@@ -168,9 +166,7 @@ pages.zh/common/java.md:4:> 更多信息：<https://docs.oracle.com/en/java/java
 pages.zh/common/javac.md:4:> 更多信息：<https://docs.oracle.com/en/java/javase/19/docs/specs/man/javac.html>.
 pages.zh/common/javadoc.md:4:> 更多信息：<https://docs.oracle.com/en/java/javase/19/docs/specs/man/javadoc.html>.
 pages.zh/common/jenv.md:4:> 更多信息：<https://www.jenv.be/>.
-pages.zh/common/jhat.md:10:- 分析堆转储文件，为 http 服务指定备用端口：
 pages.zh/common/jhat.md:4:> 更多信息：<https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jhat.html>.
-pages.zh/common/jhat.md:6:- 分析堆转储文件（来自 jmap），通过 http 端口 7000 进行查看：
 pages.zh/common/jmap.md:4:> 更多信息：<https://docs.oracle.com/javase/7/docs/technotes/tools/share/jmap.html>.
 pages.zh/common/jps.md:4:> 更多信息：<https://docs.oracle.com/en/java/javase/11/tools/jps.html>.
 pages.zh/common/kitex.md:5:> 更多信息：<https://www.cloudwego.io>.
@@ -276,7 +272,6 @@ pages.zh/linux/alpine.md:5:> 更多信息：<https://manned.org/alpine>.
 pages.zh/linux/alternatives.md:4:> 更多信息：<https://manned.org/alternatives>.
 pages.zh/linux/amixer.md:4:> 更多信息：<https://manned.org/amixer>.
 pages.zh/linux/anbox.md:4:> 更多信息：<https://manned.org/anbox>.
-pages.zh/linux/apache2ctl.md:4:> 基于 Debian 的操作系统自带该命令，基于 RHEL 的查看 `httpd`。
 pages.zh/linux/apache2ctl.md:5:> 更多信息：<https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>.
 pages.zh/linux/apk.md:4:> 更多信息：<https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
 pages.zh/linux/aplay.md:4:> 更多信息：<https://manned.org/aplay>.
@@ -376,7 +371,6 @@ pages.zh/linux/zypper.md:4:> 更多信息：<https://en.opensuse.org/SDB:Zypper_
 pages.zh/osx/afinfo.md:5:> 更多信息：<https://ss64.com/osx/afinfo.html>.
 pages.zh/osx/airport.md:4:> 更多信息：<https://ss64.com/osx/airport.html>.
 pages.zh/osx/apachectl.md:4:> 更多信息：<https://www.unix.com/man-page/osx/8/apachectl/>.
-pages.zh/osx/apachectl.md:6:- 启动 org.apache.httpd 服务：
 pages.zh/osx/arch.md:5:> 更多信息：<https://www.unix.com/man-page/osx/1/arch/>.
 pages.zh/osx/archey.md:4:> 更多信息：<https://github.com/joshfinnie/archey-osx>.
 pages.zh/osx/as.md:5:> 更多信息：<https://www.unix.com/man-page/osx/1/as/>.
@@ -823,14 +817,10 @@ pages/common/az-provider.md:5:> More information: <https://docs.microsoft.com/cl
 pages/common/az-redis.md:5:> More information: <https://docs.microsoft.com/cli/azure/redis>.
 pages/common/az-sshkey.md:5:> More information: <https://learn.microsoft.com/cli/azure/sshkey>.
 pages/common/az-storage-account.md:5:> More information: <https://learn.microsoft.com/cli/azure/storage/account>.
-pages/common/az-storage-blob.md:25:`az storage blob generate-sas --account-name {{storage_account_name}} --account-key {{storage_account_key}} -c {{container_name}} -n {{path/to/blob}} --permissions {{permission_set}} --expiry {{Y-m-d'T'H:M'Z'}} --https-only`
 pages/common/az-storage-blob.md:5:> More information: <https://learn.microsoft.com/cli/azure/storage/blob>.
-pages/common/az-storage-container.md:13:`az storage container generate-sas --account-name {{storage_account_name}} --name {{container_name}} --permissions {{sas_permissions}} --expiry {{expiry_date}} --https-only`
 pages/common/az-storage-container.md:5:> More information: <https://learn.microsoft.com/cli/azure/storage/container>.
 pages/common/az-storage-entity.md:5:> More information: <https://learn.microsoft.com/cli/azure/storage/entity>.
-pages/common/az-storage-queue.md:13:`az storage queue generate-sas --account-name {{storage_account_name}} --name {{queue_name}} --permissions {{queue_permissions}} --expiry {{expiry_date}} --https-only`
 pages/common/az-storage-queue.md:5:> More information: <https://learn.microsoft.com/cli/azure/storage/queue>.
-pages/common/az-storage-table.md:13:`az storage table generate-sas --account-name {{storage_account_name}} --name {{table_name}} --permissions {{sas_permissions}} --expiry {{expiry_date}} --https-only`
 pages/common/az-storage-table.md:5:> More information: <https://learn.microsoft.com/cli/azure/storage/table>.
 pages/common/az-storage.md:5:> More information: <https://learn.microsoft.com/cli/azure/storage>.
 pages/common/az-tag.md:5:> More information: <https://learn.microsoft.com/cli/azure/tag>.
@@ -1074,12 +1064,7 @@ pages/common/cwebp.md:4:> More information: <https://developers.google.com/speed
 pages/common/czkawka-cli.md:4:> More information: <https://github.com/qarmin/czkawka>.
 pages/common/d8.md:4:> More information: <https://v8.dev/docs/d8>.
 pages/common/daps.md:4:> More information: <https://opensuse.github.io/daps/doc/index.html>.
-pages/common/darkhttpd.md:12:`darkhttpd {{path/to/docroot}} --port {{port}}`
-pages/common/darkhttpd.md:16:`darkhttpd {{path/to/docroot}} --addr {{ip_address}}`
-pages/common/darkhttpd.md:1:# darkhttpd
-pages/common/darkhttpd.md:3:> Darkhttpd web server.
 pages/common/darkhttpd.md:4:> More information: <https://unix4lyfe.org/darkhttpd>.
-pages/common/darkhttpd.md:8:`darkhttpd {{path/to/docroot}}`
 pages/common/dart.md:4:> More information: <https://dart.dev/tools/dart-tool>.
 pages/common/dash.md:4:> More information: <https://manned.org/dash>.
 pages/common/date.md:4:> More information: <https://www.gnu.org/software/coreutils/date>.
@@ -1120,7 +1105,6 @@ pages/common/dircolors.md:4:> More information: <https://www.gnu.org/software/co
 pages/common/direnv.md:4:> More information: <https://github.com/direnv/direnv>.
 pages/common/dirname.md:4:> More information: <https://www.gnu.org/software/coreutils/dirname>.
 pages/common/dirs.md:5:> More information: <https://www.gnu.org/software/bash/manual/bash.html#Directory-Stack-Builtins>.
-pages/common/dirsearch.md:24:`dirsearch --url {{url}} --extensions {{php}} --http-method {{HEAD}}`
 pages/common/dirsearch.md:4:> More information: <https://github.com/maurosoria/dirsearch>.
 pages/common/diskonaut.md:4:> More information: <https://github.com/imsnif/diskonaut>.
 pages/common/distccd.md:4:> More information: <https://distcc.github.io>.
@@ -1525,7 +1509,6 @@ pages/common/git-ignore.md:5:> More information: <https://github.com/tj/git-extr
 pages/common/git-imerge.md:5:> More information: <https://github.com/mhagger/git-imerge>.
 pages/common/git-info.md:5:> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-info>.
 pages/common/git-init.md:4:> More information: <https://git-scm.com/docs/git-init>.
-pages/common/git-instaweb.md:20:`git instaweb --start --httpd {{lighttpd|apache2|mongoose|plackup|webrick}}`
 pages/common/git-instaweb.md:4:> More information: <https://git-scm.com/docs/git-instaweb>.
 pages/common/git-lfs.md:4:> More information: <https://git-lfs.github.com>.
 pages/common/git-local-commits.md:5:> More information: <https://github.com/tj/git-extras/blob/master/Commands.md#git-local-commits>.
@@ -1630,7 +1613,6 @@ pages/common/gitlint.md:4:> More information: <https://jorisroovers.com/gitlint/
 pages/common/gitmoji.md:4:> More information: <https://github.com/carloscuesta/gitmoji-cli>.
 pages/common/gitsome.md:15:- List notifications for the current account (as would be seen in https://github.com/notifications):
 pages/common/gitsome.md:5:> More information: <https://github.com/donnemartin/gitsome>.
-pages/common/gixy.md:12:`gixy --skips {{http_splitting}}`
 pages/common/gixy.md:4:> More information: <https://github.com/yandex/gixy>.
 pages/common/glab-alias.md:4:> More information: <https://glab.readthedocs.io/en/latest/alias>.
 pages/common/glab-auth.md:4:> More information: <https://glab.readthedocs.io/en/latest/auth>.
@@ -1669,7 +1651,6 @@ pages/common/go-fmt.md:5:> More information: <https://pkg.go.dev/cmd/go#hdr-Gofm
 pages/common/go-generate.md:4:> More information: <https://golang.org/cmd/go/#hdr-Generate_Go_files_by_processing_source>.
 pages/common/go-get.md:4:> More information: <https://pkg.go.dev/cmd/go#hdr-Add_dependencies_to_current_module_and_install_them>.
 pages/common/go-install.md:4:> More information: <https://pkg.go.dev/cmd/go#hdr-Compile_and_install_packages_and_dependencies>.
-pages/common/go-list.md:16:`go list -json time net/http`
 pages/common/go-list.md:4:> More information: <https://golang.org/cmd/go/#hdr-List_packages_or_modules>.
 pages/common/go-mod.md:4:> More information: <https://golang.org/cmd/go/#hdr-Module_maintenance>.
 pages/common/go-run.md:4:> More information: <https://pkg.go.dev/cmd/go#hdr-Compile_and_run_Go_program>.
@@ -1684,8 +1665,6 @@ pages/common/gobuster.md:28:`gobuster fuzz --url {{https://example.com/?FUZZ=val
 pages/common/gobuster.md:4:> More information: <https://github.com/OJ/gobuster>.
 pages/common/gobuster.md:8:`gobuster dir --url {{https://example.com/}} --wordlist {{path/to/file}}`
 pages/common/gocryptfs.md:4:> More information: <https://github.com/rfjakob/gocryptfs>.
-pages/common/godoc.md:16:`godoc -http=:{{6060}}`
-pages/common/godoc.md:24:`godoc -http=:{{6060}} -index -index_files={{path/to/file}}`
 pages/common/godoc.md:4:> More information: <https://godoc.org/>.
 pages/common/godot.md:4:> More information: <https://godotengine.org/>.
 pages/common/gofmt.md:4:> More information: <https://golang.org/cmd/gofmt/>.
@@ -1789,66 +1768,20 @@ pages/common/hsw-cli.md:4:> More information: <https://github.com/handshake-org/
 pages/common/html5validator.md:4:> More information: <https://github.com/svenkreiss/html5validator>.
 pages/common/htop.md:4:> More information: <https://htop.dev/>.
 pages/common/htpasswd.md:4:> More information: <https://httpd.apache.org/docs/current/programs/htpasswd.html>.
-pages/common/http-server-upload.md:12:`MAX_FILE_SIZE={{size_in_megabytes}} http-server-upload`
-pages/common/http-server-upload.md:16:`PORT={{port}} http-server-upload`
-pages/common/http-server-upload.md:1:# http-server-upload
-pages/common/http-server-upload.md:20:`UPLOAD_DIR={{path/to/directory}} http-server-upload`
-pages/common/http-server-upload.md:24:`UPLOAD_TMP_DIR={{path/to/directory}} http-server-upload`
-pages/common/http-server-upload.md:28:`TOKEN={{secret}} http-server-upload`
 pages/common/http-server-upload.md:4:> More information: <https://github.com/crycode-de/http-server-upload>.
-pages/common/http-server-upload.md:8:`http-server-upload`
-pages/common/http-server.md:12:`http-server {{path/to/directory}} --port {{port}}`
-pages/common/http-server.md:16:`http-server --username {{username}} --password {{password}}`
-pages/common/http-server.md:1:# http-server
-pages/common/http-server.md:20:`http-server -d {{false}}`
-pages/common/http-server.md:24:`http-server --ssl --cert {{path/to/cert.pem}} --key {{path/to/key.pem}}`
-pages/common/http-server.md:28:`http-server --log-ip`
-pages/common/http-server.md:32:`http-server --cors`
-pages/common/http-server.md:36:`http-server --silent`
 pages/common/http-server.md:4:> More information: <https://github.com/http-party/http-server>.
-pages/common/http-server.md:8:`http-server`
-pages/common/http.md:12:`http --form {{example.org}} {{name='bob'}} {{profile_picture@'bob.png'}}`
-pages/common/http.md:16:`http {{example.org}} {{name='bob'}}`
-pages/common/http.md:1:# http
-pages/common/http.md:20:`http {{HEAD}} {{example.org}}`
-pages/common/http.md:24:`http {{example.org}} {{X-MyHeader:123}}`
-pages/common/http.md:28:`http --auth {{username:password}} {{example.org}}`
-pages/common/http.md:32:`cat {{data.txt}} | http PUT {{example.org}}`
 pages/common/http.md:4:> More information: <https://httpie.org>.
-pages/common/http.md:8:`http --download {{example.org}}`
-pages/common/httpflow.md:12:`httpflow {{host httpbin.org or host baidu.com}}`
-pages/common/httpflow.md:16:`httpflow -u '{{regular_expression}}'`
-pages/common/httpflow.md:1:# httpflow
-pages/common/httpflow.md:20:`httpflow -r {{out.cap}}`
-pages/common/httpflow.md:24:`httpflow -w {{path/to/directory}}`
 pages/common/httpflow.md:4:> More information: <https://github.com/six-ddc/httpflow>.
-pages/common/httpflow.md:8:`httpflow -i {{any}}`
-pages/common/httping.md:12:`httping -h {{host}} -p {{port}}`
 pages/common/httping.md:16:`httping -l -g https://{{host}}`
-pages/common/httping.md:1:# httping
 pages/common/httping.md:20:`httping -g http://{{host}} -U {{username}} -P {{password}}`
 pages/common/httping.md:4:> More information: <https://manned.org/httping>.
-pages/common/httping.md:8:`httping -g {{url}}`
-pages/common/httprobe.md:12:`cat {{input_file}} | httprobe --prefer-https`
-pages/common/httprobe.md:16:`cat {{input_file}} | httprobe -p {{https:2222}}`
-pages/common/httprobe.md:1:# httprobe
-pages/common/httprobe.md:20:`httprobe --help`
 pages/common/httprobe.md:4:> More information: <https://github.com/tomnomnom/httprobe>.
-pages/common/httprobe.md:8:`cat {{input_file}} | httprobe`
-pages/common/httpry.md:13:`httpry {{eth0}} -b {{path/to/file.pcap}}`
-pages/common/httpry.md:17:`httpry -m {{get|post|put|head|options|delete|trace|connect|patch}}`
-pages/common/httpry.md:1:# httpry
-pages/common/httpry.md:21:`httpry -r {{path/to/file.log}} '{{host 192.168.5.25}}'`
-pages/common/httpry.md:25:`httpry -d -o {{path/to/file.log}}`
 pages/common/httpry.md:5:> More information: <http://dumpsterventures.com/jason/httpry/>.
-pages/common/httpry.md:9:`httpry -o {{path/to/file.log}}`
 pages/common/hub.md:5:> More information: <https://hub.github.com>.
 pages/common/hugo.md:10:- Create a new Hugo theme (themes may also be downloaded from https://themes.gohugo.io/):
 pages/common/hugo.md:4:> More information: <https://gohugo.io>.
 pages/common/hunspell.md:4:> More information: <https://github.com/hunspell/hunspell>.
 pages/common/husky.md:4:> More information: <https://typicode.github.io/husky>.
-pages/common/hydra.md:15:- Guess HTTPS webform credentials using two specific lists of usernames and passwords ("https_post_request" can be like "username=^USER^&password=^PASS^"):
-pages/common/hydra.md:17:`hydra -L {{path/to/usernames.txt}} -P {{path/to/wordlist.txt}} {{host_ip}} {{https-post-form}} "{{url_without_host}}:{{https_post_request}}:{{login_failed_string}}"`
 pages/common/hydra.md:5:> More information: <https://github.com/vanhauser-thc/thc-hydra>.
 pages/common/hyperfine.md:4:> More information: <https://github.com/sharkdp/hyperfine/>.
 pages/common/ia.md:4:> More information: <https://archive.org/services/docs/api/internetarchive/cli.html>.
@@ -1917,7 +1850,6 @@ pages/common/jello.md:4:> More information: <https://github.com/kellyjonbrazil/j
 pages/common/jenv.md:4:> More information: <https://www.jenv.be/>.
 pages/common/jest.md:4:> More information: <https://jestjs.io>.
 pages/common/jetifier.md:4:> More information: <https://github.com/mikehardy/jetifier>.
-pages/common/jhat.md:10:- Analyze a heap dump, specifying an alternate port for the http server:
 pages/common/jhat.md:4:> More information: <https://docs.oracle.com/javase/8/docs/technotes/tools/unix/jhat.html>.
 pages/common/jhipster.md:26:- Import a JDL file to configure your application (see: https://start.jhipster.tech/jdl-studio/):
 pages/common/jhipster.md:4:> More information: <https://www.jhipster.tech/>.
@@ -1958,7 +1890,6 @@ pages/common/kcadm.sh.md:4:> More information: <https://www.keycloak.org/docs/la
 pages/common/kcat.md:4:> More information: <https://github.com/edenhill/kcat>.
 pages/common/kdeconnect-cli.md:4:> More information: <https://kdeconnect.kde.org>.
 pages/common/kdenlive.md:4:> More information: <https://manned.org/kdenlive>.
-pages/common/kdig.md:24:`kdig -d @{{1.1.1.1}} +https +tls-hostname={{1dot1dot1dot1.cloudflare-dns.com}} {{example.com}}`
 pages/common/kdig.md:4:> More information: <https://www.knot-dns.cz/docs/latest/html/man_kdig.html>.
 pages/common/keep-header.md:4:> More information: <https://github.com/eBay/tsv-utils#keep-header>.
 pages/common/keepass2.md:4:> More information: <https://keepass.info>.
@@ -2033,7 +1964,6 @@ pages/common/linkchecker.md:20:`linkchecker --file-output {{csv}}/{{path/to/file
 pages/common/linkchecker.md:4:> More information: <https://linkchecker.github.io/linkchecker/>.
 pages/common/linkchecker.md:6:- Find broken links on https://example.com/:
 pages/common/linkchecker.md:8:`linkchecker {{https://example.com/}}`
-pages/common/live-server.md:20:`live-server --proxy={{/}}:{{http:localhost:3000}}`
 pages/common/live-server.md:4:> More information: <https://github.com/tapio/live-server>.
 pages/common/llc.md:4:> More information: <https://www.llvm.org/docs/CommandGuide/llc.html>.
 pages/common/lldb.md:4:> More information: <https://lldb.llvm.org>.
@@ -2233,10 +2163,8 @@ pages/common/nf-core.md:4:> More information: <https://nf-co.re/tools>.
 pages/common/ng.md:4:> More information: <https://angular.io/cli>.
 pages/common/nginx.md:4:> More information: <https://nginx.org/en/>.
 pages/common/ngrep.md:4:> More information: <https://github.com/jpr5/ngrep>.
-pages/common/ngrok.md:12:`ngrok http {{foo.dev}}:{{80}}`
 pages/common/ngrok.md:16:`ngrok http https://localhost`
 pages/common/ngrok.md:4:> More information: <https://ngrok.com>.
-pages/common/ngrok.md:8:`ngrok http {{80}}`
 pages/common/ngs.md:4:> More information: <https://github.com/ngs-lang/ngs>.
 pages/common/nice.md:5:> More information: <https://www.gnu.org/software/coreutils/nice>.
 pages/common/nikto.md:16:`perl nikto.pl -h {{https://192.168.0.1:443/}}`
@@ -2255,8 +2183,6 @@ pages/common/nkf.md:5:> More information: <https://manned.org/nkf>.
 pages/common/nl.md:4:> More information: <https://www.gnu.org/software/coreutils/nl>.
 pages/common/nload.md:4:> More information: <https://github.com/rolandriegel/nload>.
 pages/common/nm.md:4:> More information: <https://manned.org/nm>.
-pages/common/nmap.md:31:- Scan web server running on standard ports 80 and 443 using all available 'http-*' NSE scripts:
-pages/common/nmap.md:33:`nmap --script "http-*" {{address_or_addresses}} -p 80,443`
 pages/common/nmap.md:5:> More information: <https://nmap.org>.
 pages/common/nms.md:4:> More information: <https://github.com/bartobri/no-more-secrets>.
 pages/common/node.md:4:> More information: <https://nodejs.org>.
@@ -2485,7 +2411,6 @@ pages/common/popeye.md:4:> More information: <https://github.com/derailed/popeye
 pages/common/postcss.md:4:> More information: <https://postcss.org>.
 pages/common/powershell.md:5:> More information: <https://learn.microsoft.com/windows-server/administration/windows-commands/powershell>.
 pages/common/pppd.md:5:> More information: <https://ppp.samba.org/pppd.html>.
-pages/common/pprof.md:20:`pprof -http={{localhost:8080}} {{./fibbo}} {{./fibbo-profile.pb.gz}}`
 pages/common/pprof.md:24:`pprof {{http://localhost:8080/debug/pprof}}`
 pages/common/pprof.md:4:> More information: <https://github.com/google/pprof>.
 pages/common/pr.md:4:> More information: <https://www.gnu.org/software/coreutils/pr>.
@@ -2558,7 +2483,6 @@ pages/common/pyinfra.md:4:> More information: <https://docs.pyinfra.com>.
 pages/common/pylint.md:4:> More information: <https://pylint.pycqa.org/en/latest/>.
 pages/common/pypy.md:4:> More information: <https://doc.pypy.org>.
 pages/common/pytest.md:4:> More information: <https://docs.pytest.org/>.
-pages/common/python.md:36:`python -m {{http.server}}`
 pages/common/python.md:4:> More information: <https://www.python.org>.
 pages/common/q.md:4:> More information: <https://harelba.github.io/q>.
 pages/common/qcp.md:4:> More information: <https://www.nongnu.org/renameutils/>.
@@ -3066,7 +2990,6 @@ pages/common/w3m.md:5:> More information: <http://w3m.sourceforge.net>.
 pages/common/w3m.md:9:`w3m {{http://example.com}}`
 pages/common/waifu2x-ncnn-vulkan.md:4:> More information: <https://github.com/nihui/waifu2x-ncnn-vulkan>.
 pages/common/wait.md:4:> More information: <https://manned.org/wait>.
-pages/common/waitress-serve.md:28:`waitress-serve --url-scheme={{https}} {{import.path:wsgi_func}}`
 pages/common/waitress-serve.md:4:> More information: <https://docs.pylonsproject.org/projects/waitress/en/latest/runner.html>.
 pages/common/wal.md:4:> More information: <https://github.com/dylanaraps/pywal>.
 pages/common/wapm.md:4:> More information: <https://wapm.io/help/reference>.
@@ -3129,12 +3052,7 @@ pages/common/xephyr.md:4:> More information: <https://manned.org/xserver-xephyr>
 pages/common/xetex.md:4:> More information: <https://www.tug.org/xetex/>.
 pages/common/xev.md:4:> More information: <https://gitlab.freedesktop.org/xorg/app/xev>.
 pages/common/xgettext.md:4:> More information: <https://www.gnu.org/software/gettext/manual/html_node/xgettext-Invocation.html>.
-pages/common/xh.md:12:`xh post {{httpbin.org/post}} {{name=john}} {{age:=25}}`
-pages/common/xh.md:16:`xh get {{httpbin.org/get}} {{first_param==5}} {{second_param==true}}`
-pages/common/xh.md:20:`xh get {{httpbin.org/get}} {{header-name:header-value}}`
-pages/common/xh.md:24:`xh --download {{httpbin.org/json}} --output {{path/to/file}}`
 pages/common/xh.md:4:> More information: <https://github.com/ducaale/xh>.
-pages/common/xh.md:8:`xh {{httpbin.org/get}}`
 pages/common/xidel.md:12:`xidel {{https://www.google.com/search?q=test}} --follow "{{//a/extract(@href, 'url[?]q=([^&]+)&', 1)[. != '']}}" --extract {{//title}} --download {{'{$host}/'}}`
 pages/common/xidel.md:16:`xidel {{https://example.org}} --follow {{//a}} --extract {{//title}}`
 pages/common/xidel.md:20:`xidel {{https://example.org}} --follow "{{css('a')}}" --css {{title}}`
@@ -3263,7 +3181,6 @@ pages/linux/alpine.md:5:> More information: <https://manned.org/alpine>.
 pages/linux/alternatives.md:4:> More information: <https://manned.org/alternatives>.
 pages/linux/amixer.md:4:> More information: <https://manned.org/amixer>.
 pages/linux/anbox.md:4:> More information: <https://manned.org/anbox>.
-pages/linux/apache2ctl.md:4:> This command comes with Debian based OSes, for RHEL based ones see `httpd`.
 pages/linux/apache2ctl.md:5:> More information: <https://manpages.debian.org/latest/apache2/apache2ctl.8.en.html>.
 pages/linux/apk.md:4:> More information: <https://wiki.alpinelinux.org/wiki/Alpine_Linux_package_management>.
 pages/linux/aplay.md:4:> More information: <https://manned.org/aplay>.
@@ -3409,12 +3326,7 @@ pages/linux/cryptsetup.md:4:> More information: <https://gitlab.com/cryptsetup/c
 pages/linux/csplit.md:5:> More information: <https://www.gnu.org/software/coreutils/csplit>.
 pages/linux/ctr.md:4:> More information: <https://containerd.io>.
 pages/linux/ctrlaltdel.md:4:> More information: <https://manned.org/ctrlaltdel>.
-pages/linux/curlie.md:12:`curlie post {{httpbin.org/post}} {{name=john}} {{age:=25}}`
-pages/linux/curlie.md:16:`curlie get {{httpbin.org/get}} {{first_param==5}} {{second_param==true}}`
-pages/linux/curlie.md:20:`curlie get {{httpbin.org/get}} {{header-name:header-value}}`
-pages/linux/curlie.md:3:> Curlie is a frontend to curl that adds the ease of use of httpie.
 pages/linux/curlie.md:4:> More information: <https://github.com/rs/curlie>.
-pages/linux/curlie.md:8:`curlie {{httpbin.org/get}}`
 pages/linux/cuyo.md:4:> More information: <https://www.karimmi.de/cuyo/>.
 pages/linux/daemon.md:4:> More information: <https://manned.org/man/daemon.1>.
 pages/linux/daemonize.md:4:> More information: <http://software.clapper.org/daemonize/>.
@@ -3532,8 +3444,6 @@ pages/linux/finch.md:4:> More information: <https://developer.pidgin.im/wiki/Usi
 pages/linux/findfs.md:4:> More information: <https://mirrors.edge.kernel.org/pub/linux/utils/util-linux>.
 pages/linux/findmnt.md:4:> More information: <https://manned.org/findmnt>.
 pages/linux/firejail.md:4:> More information: <https://manned.org/firejail>.
-pages/linux/firewall-cmd.md:20:`firewall-cmd --permanent --zone={{public}} --add-service={{https}}`
-pages/linux/firewall-cmd.md:24:`firewall-cmd --permanent --zone={{public}} --remove-service={{http}}`
 pages/linux/firewall-cmd.md:4:> More information: <https://firewalld.org/documentation/man-pages/firewall-cmd>.
 pages/linux/flameshot.md:5:> More information: <https://flameshot.org>.
 pages/linux/flash.md:4:> More information: <https://github.com/tallguyjenks/fla.sh>.
@@ -3598,20 +3508,11 @@ pages/linux/homeshick.md:4:> More information: <https://github.com/andsens/homes
 pages/linux/hostnamectl.md:4:> More information: <https://manned.org/hostnamectl>.
 pages/linux/htpdate.md:4:> More information: <http://www.vervest.org/htp/>.
 pages/linux/http-prompt.md:12:`http-prompt {{http://example.com}}`
-pages/linux/http-prompt.md:16:`http-prompt {{localhost:8000/api}} --auth {{username:password}}`
-pages/linux/http-prompt.md:1:# http-prompt
 pages/linux/http-prompt.md:4:> More information: <https://github.com/httpie/http-prompt>.
 pages/linux/http-prompt.md:6:- Launch a session targeting the default URL of http://localhost:8000 or the previous session:
-pages/linux/http-prompt.md:8:`http-prompt`
-pages/linux/http_load.md:13:`http_load -parallel {{5}} -seconds {{60}} {{path/to/urls.txt}}`
-pages/linux/http_load.md:17:`http_load -rate {{20}} -fetches {{1000}} {{path/to/urls.txt}}`
-pages/linux/http_load.md:1:# http_load
-pages/linux/http_load.md:21:`http_load -parallel {{5}} -fetches {{1000}} {{path/to/urls.txt}}`
 pages/linux/http_load.md:5:> More information: <http://www.acme.com/software/http_load/>.
-pages/linux/http_load.md:9:`http_load -rate {{20}} -seconds {{60}} {{path/to/urls.txt}}`
 pages/linux/httpie.md:12:`http {{https://example.com}} {{hello=World}}`
 pages/linux/httpie.md:16:`http {{https://example.com}} < {{file.json}}`
-pages/linux/httpie.md:1:# httpie
 pages/linux/httpie.md:20:`http PUT {{https://example.com/todos/7}} {{hello=world}}`
 pages/linux/httpie.md:24:`http DELETE {{https://example.com/todos/7}} {{API-Key:foo}}`
 pages/linux/httpie.md:28:`http -v {{https://example.com}}`
@@ -3806,7 +3707,6 @@ pages/linux/nethogs.md:4:> More information: <https://github.com/raboof/nethogs>
 pages/linux/netselect-apt.md:4:> More information: <https://manpages.debian.org/latest/netselect-apt/netselect-apt.html>.
 pages/linux/netselect.md:4:> More information: <https://github.com/apenwarr/netselect>.
 pages/linux/newgrp.md:4:> More information: <https://manned.org/newgrp>.
-pages/linux/nft.md:21:`sudo nft add rule {{inet}} {{filter}} {{input}} {{tcp}} {{dport \{ telnet, ssh, http, https \} accept}}`
 pages/linux/nft.md:5:> More information: <https://wiki.nftables.org/wiki-nftables/index.php/Main_Page>.
 pages/linux/nitrogen.md:4:> More information: <https://github.com/l3ib/nitrogen>.
 pages/linux/nixos-container.md:4:> More information: <https://nixos.org/manual/nixos/stable/#ch-containers>.
@@ -3976,7 +3876,6 @@ pages/linux/rdesktop.md:5:> More information: <https://manned.org/rdesktop>.
 pages/linux/readelf.md:4:> More information: <http://man7.org/linux/man-pages/man1/readelf.1.html>.
 pages/linux/readpe.md:4:> More information: <https://manned.org/readpe>.
 pages/linux/reboot.md:4:> More information: <https://manned.org/reboot.8>.
-pages/linux/reflector.md:12:`reflector --country {{Germany}} --protocol {{https}}`
 pages/linux/reflector.md:4:> More information: <https://manned.org/reflector>.
 pages/linux/register_new_matrix_user.md:4:> More information: <https://manned.org/register_new_matrix_user>.
 pages/linux/rename.md:7:> More information: <https://manned.org/rename>.
@@ -4003,8 +3902,6 @@ pages/linux/rpi-eeprom-update.md:4:> More information: <https://www.raspberrypi.
 pages/linux/rpm-ostree.md:5:> More information: <https://coreos.github.io/rpm-ostree/administrator-handbook/>.
 pages/linux/rpm.md:4:> For equivalent commands in other package managers, see <https://wiki.archlinux.org/title/Pacman/Rosetta>.
 pages/linux/rpm.md:5:> More information: <https://rpm.org/>.
-pages/linux/rpm.md:7:- Show version of httpd package:
-pages/linux/rpm.md:9:`rpm --query {{httpd}}`
 pages/linux/rpm2cpio.md:4:> More information: <http://ftp.rpm.org/max-rpm/s1-rpm-miscellania-rpm2cpio.html>.
 pages/linux/rpmbuild.md:4:> More information: <https://docs.fedoraproject.org/en-US/quick-docs/creating-rpm-packages/>.
 pages/linux/rpmspec.md:4:> More information: <https://manned.org/rpmspec>.
@@ -4124,9 +4021,6 @@ pages/linux/trashy.md:4:> More information: <https://github.com/oberblastmeister
 pages/linux/treetime.md:4:> More information: <https://treetime.readthedocs.io/en/latest/tutorials.html>.
 pages/linux/trizen.md:4:> More information: <https://github.com/trizen/trizen>.
 pages/linux/trust.md:4:> More information: <https://manned.org/trust>.
-pages/linux/tshark.md:16:`tshark -Y '{{http.request.method == "GET"}}'`
-pages/linux/tshark.md:20:`tshark -d tcp.port=={{8888}},{{http}}`
-pages/linux/tshark.md:28:`tshark -T {{fields|ek|json|pdml}} -e {{http.request.method}} -e {{ip.src}}`
 pages/linux/tshark.md:4:> More information: <https://tshark.dev/>.
 pages/linux/ttyplot.md:4:> More information: <https://github.com/tenox7/ttyplot>.
 pages/linux/tune2fs.md:5:> More information: <https://manned.org/tune2fs>.
@@ -4261,7 +4155,6 @@ pages/osx/afplay.md:4:> More information: <https://ss64.com/osx/afplay.html>.
 pages/osx/airport.md:4:> More information: <https://ss64.com/osx/airport.html>.
 pages/osx/airportd.md:5:> More information: <https://www.manpagez.com/man/8/airportd/>.
 pages/osx/apachectl.md:4:> More information: <https://www.unix.com/man-page/osx/8/apachectl/>.
-pages/osx/apachectl.md:6:- Start the `org.apache.httpd` launchd job:
 pages/osx/applecamerad.md:5:> More information: <https://www.theiphonewiki.com/wiki/Services>.
 pages/osx/appsleepd.md:5:> More information: <https://keith.github.io/xcode-man-pages/appsleepd.8.html>.
 pages/osx/arch.md:5:> More information: <https://www.unix.com/man-page/osx/1/arch/>.
