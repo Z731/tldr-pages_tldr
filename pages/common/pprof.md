@@ -21,4 +21,4 @@
 
 - Fetch a profile from an HTTP server and generate a report:
 
-`pprof {{http://localhost:8080/debug/pprof}}`
+`pprof {{https://localhost:8080/debug/pprof}}`

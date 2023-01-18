@@ -17,7 +17,7 @@
 
 - Save logs to a file:
 
-`cloudflared tunnel --hostname {{hostname}} http://localhost:{{port_number}} --loglevel {{panic|fatal|error|warn|info|debug}} --logfile {{path/to/file}}`
+`cloudflared tunnel --hostname {{hostname}} https://localhost:{{port_number}} --loglevel {{panic|fatal|error|warn|info|debug}} --logfile {{path/to/file}}`
 
 - Install cloudflared as a system service:
 

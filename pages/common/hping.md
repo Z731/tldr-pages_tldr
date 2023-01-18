@@ -2,7 +2,7 @@
 
 > Command-line oriented TCP/IP packet assembler and analyzer.
 > Inspired by the `ping` command.
-> More information: <http://www.hping.org>.
+> More information: <https://www.hping.org>.
 
 - Ping localhost over TCP:
 

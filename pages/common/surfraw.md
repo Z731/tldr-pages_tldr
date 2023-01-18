@@ -2,7 +2,7 @@
 
 > CLI to query a variety of web search engines.
 > Consists of a collection of elvi, each of which knows how to search a specific website.
-> More information: <http://surfraw.org>.
+> More information: <https://surfraw.org>.
 
 - Display the list of supported website search scripts (elvi):
 

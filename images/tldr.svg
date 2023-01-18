@@ -1,6 +1,6 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1250" height="738.14">
+<svg xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink" width="1250" height="738.14">
     <rect width="1250" height="738.14" rx="0" ry="0" class="a" />
-    <svg height="738.14" viewBox="0 0 125 73.814" width="1250" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <svg height="738.14" viewBox="0 0 125 73.814" width="1250" xmlns="https://www.w3.org/2000/svg" xmlns:xlink="https://www.w3.org/1999/xlink">
         <style>@keyframes l{0%{transform:translateX(0)}10.3%{transform:translateX(-125px)}10.5%{transform:translateX(-375px)}19%{transform:translateX(-500px)}20.2%{transform:translateX(-625px)}22.1%{transform:translateX(-750px)}24.9%{transform:translateX(-875px)}27.8%{transform:translateX(-1000px)}29.6%{transform:translateX(-1125px)}31.4%{transform:translateX(-1250px)}32.9%{transform:translateX(-1375px)}35.7%{transform:translateX(-1750px)}44%{transform:translateX(-2000px)}44.2%{transform:translateX(-2250px)}44.5%{transform:translateX(-2625px)}to{transform:translateX(-2750px)}}.a{fill:#000000}.c,.d{fill:#00ff00;font-weight:700;white-space:pre}.d{fill:#00ffff}.e,.g,.h,.i{fill:#ffffff;white-space:pre}.g,.h,.i{fill:#00ff00}.h,.i{fill:#ff0000}.i{fill:#0ff}</style>
         <g font-family="Monaco,Consolas,Menlo,'Bitstream Vera Sans Mono','Powerline Symbols',monospace" font-size="1.67">
             <defs>

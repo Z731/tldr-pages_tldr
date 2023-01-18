@@ -135,7 +135,7 @@ to see the overall progress of all translations, and which translations are miss
   is an interactive cheatsheet tool, which allows you to browse through
   specific examples or complete commands on the fly.
 
-- [bropages (deprecated)](http://bropages.org)
+- [bropages (deprecated)](https://bropages.org)
   are a highly readable supplement to man pages.
   It shows concise, common-case examples for Unix commands.
   The examples are submitted by the user base, and can be voted up or down;

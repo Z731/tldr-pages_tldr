@@ -1,7 +1,7 @@
 # dolt version
 
 > Displays the current dolt CLI version.
-> More information: <http://github.com/dolthub/dolt>.
+> More information: <https://github.com/dolthub/dolt>.
 
 - Display version:
 

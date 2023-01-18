@@ -1,7 +1,7 @@
 # dolt blame
 
 > Displays commit information for each row of a Dolt table.
-> More information: <http://github.com/dolthub/dolt>.
+> More information: <https://github.com/dolthub/dolt>.
 
 - Display the latest commit for each row of a table:
 
