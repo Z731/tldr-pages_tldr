@@ -24,6 +24,7 @@ cp z731/tree_pages_all_revert z731/read_tree_pages_all_revert
 
 grep -n -E "https?://" pages*/*/* | sort > z731/grep_pages_all_http
 grep -E "More information: |更多信息：|更多資訊：" z731/grep_pages_all_http > z731/grep_pages_all_http_more_info
+awk -F '[<>]' '{print $3}' z731/grep_pages_all_http_more_info | sort | uniq > z731/grep_pages_all_http_more_info_url
 awk -F '[/:]' '{for(i=0;i<=3-1;i++)printf("%s\t",$(3-i));for(i=4;i<=NF;i++)printf("%s/",$(i));printf("\n");}' z731/grep_pages_all_http_more_info | sed 's/\/\/\//:\/\//g' | sort > z731/grep_pages_all_http_more_info_revert
 sort -t '<' -k 2 z731/grep_pages_all_http_more_info_revert > z731/grep_pages_all_http_more_info_revert_sort_url
 
