@@ -32,7 +32,7 @@ pages.zh/common/adb-shell.md:4:> 更多信息：<https://developer.android.com/s
 pages.zh/common/adb.md:5:> 更多信息：<https://developer.android.com/studio/command-line/adb>.
 pages.zh/common/adguardhome.md:4:> 更多信息：<https://github.com/AdguardTeam/AdGuardHome>.
 pages.zh/common/adscript.md:4:> 更多信息：<https://github.com/Amplus2/Adscript>.
-pages.zh/common/afconvert.md:4:> 更多信息: <https://manned.org/afconvert.1>.
+pages.zh/common/afconvert.md:4:> 更多信息：<https://manned.org/afconvert.1>.
 pages.zh/common/ag.md:4:> 更多信息：<https://github.com/ggreer/the_silver_searcher>.
 pages.zh/common/agate.md:4:> 更多信息：<https://github.com/mbrubeck/agate>.
 pages.zh/common/age.md:4:> 更多信息：<https://age-encryption.org>.
@@ -828,7 +828,7 @@ pages/common/az-term.md:5:> More information: <https://learn.microsoft.com/cli/a
 pages/common/az-upgrade.md:5:> More information: <https://learn.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-upgrade>.
 pages/common/az-version.md:5:> More information: <https://learn.microsoft.com/cli/azure/reference-index?view=azure-cli-latest#az-version>.
 pages/common/az-vm.md:5:> More information: <https://learn.microsoft.com/cli/azure/vm>.
-pages/common/az-webapp.md:5:> Mode information: <https://learn.microsoft.com/cli/azure/webapp>.
+pages/common/az-webapp.md:5:> More information: <https://learn.microsoft.com/cli/azure/webapp>.
 pages/common/az.md:5:> More information: <https://learn.microsoft.com/cli/azure>.
 pages/common/azurite.md:4:> More information: <https://www.npmjs.com/package/azurite>.
 pages/common/b2sum.md:4:> More information: <https://www.gnu.org/software/coreutils/b2sum>.
