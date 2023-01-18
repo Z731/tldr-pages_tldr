@@ -15,3 +15,6 @@ if [ ! -d "z731" ]; then mkdir z731; fi
 tree pages | sed 's/.md$//g;s/├── /\t/g;s/│   /\t/g;s/│   /\t/g;s/└── /\t/g;s/    /\t/g' > z731/tree_pages
 tree pages.zh | sed 's/.md$//g;s/├── /\t/g;s/│   /\t/g;s/│   /\t/g;s/└── /\t/g;s/    /\t/g' > z731/tree_pages.zh
 tree pages.zh_TW | sed 's/.md$//g;s/├── /\t/g;s/│   /\t/g;s/│   /\t/g;s/└── /\t/g;s/    /\t/g' > z731/tree_pages.zh_TW
+cp z731/tree_pages z731/read_tree_pages
+cp z731/tree_pages.zh z731/read_tree_pages.zh
+cp z731/tree_pages.zh_TW z731/read_tree_pages.zh_TW
