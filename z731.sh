@@ -19,3 +19,4 @@ cp z731/tree_pages z731/read_tree_pages
 cp z731/tree_pages.zh z731/read_tree_pages.zh
 cp z731/tree_pages.zh_TW z731/read_tree_pages.zh_TW
 tree -i -f pages* | sed 's/.md$//g' > z731/tree_pages_all
+awk -F '/' '{for(i=0;i<=NF-1;i++)printf("%s\t",$(NF-i));printf("\n");}' z731/tree_pages_all | sort > z731/tree_pages_all_revert
