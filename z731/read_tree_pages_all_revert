@@ -6,10 +6,10 @@
 7za	common	pages.zh	
 7zr	common	pages	
 7zr	common	pages.zh	
-[	common	pages	
-[	common	pages.zh	
-[[	common	pages	
-[[	common	pages.zh	
+[	common	pages	A.Readed
+[	common	pages.zh	A.Readed
+[[	common	pages	A.Readed
+[[	common	pages.zh	A.Readed
 a2disconf	linux	pages	
 a2disconf	linux	pages.zh	
 a2dismod	linux	pages	
@@ -52,8 +52,8 @@ acpi	linux	pages.zh
 act	common	pages	
 act	common	pages.zh	
 acyclic	common	pages	
-adb	common	pages	
-adb	common	pages.zh	
+adb	common	pages	A.Readed
+adb	common	pages.zh	A.Readed
 adb-install	common	pages	
 adb-install	common	pages.zh	
 adb-logcat	common	pages	
@@ -290,8 +290,8 @@ avbdeviced	osx	pages
 avifenc	linux	pages	
 avo	common	pages	
 avrdude	common	pages	
-awk	common	pages	
-awk	common	pages.zh	
+awk	common	pages	A.Readed
+awk	common	pages.zh	A.Readed
 aws	common	pages	
 aws-backup	common	pages	
 aws-codecommit	common	pages	
@@ -579,10 +579,10 @@ cc	linux	pages
 cc	linux	pages.zh	
 cc	linux	pages.zh_TW	
 ccomps	common	pages	
-cd	common	pages	
-cd	common	pages.zh	
-cd	common	pages.zh_TW	
-cd	windows	pages	
+cd	common	pages	A.Readed
+cd	common	pages.zh	A.Readed
+cd	common	pages.zh_TW	A.Readed
+cd	windows	pages	A.Readed
 cdk	common	pages	
 ceph	linux	pages	
 certbot	linux	pages	
@@ -617,8 +617,8 @@ chgrp	common	pages
 chisel	common	pages	
 chkconfig	linux	pages	
 chkdsk	windows	pages	
-chmod	common	pages	
-chmod	common	pages.zh	
+chmod	common	pages	A.Readed
+chmod	common	pages.zh	A.Readed
 chntpw	linux	pages	
 choco	windows	pages	
 choco	windows	pages.zh	
@@ -1130,9 +1130,9 @@ e2undo	linux	pages
 e4defrag	linux	pages	
 ebook-convert	common	pages	
 ebuild	linux	pages	
-echo	common	pages	
-echo	common	pages.zh	
-echo	common	pages.zh_TW	
+echo	common	pages	A.Readed
+echo	common	pages.zh	A.Readed
+echo	common	pages.zh_TW	A.Readed
 ect	common	pages	
 ed	common	pages	
 ed	osx	pages	
@@ -1390,9 +1390,9 @@ g[	osx	pages.zh_TW
 gacutil	common	pages	
 ganache-cli	common	pages	
 gatsby	common	pages	
-gawk	osx	pages	
-gawk	osx	pages.zh	
-gawk	osx	pages.zh_TW	
+gawk	osx	pages	A.Readed
+gawk	osx	pages.zh	A.Readed
+gawk	osx	pages.zh_TW	A.Readed
 gb2sum	osx	pages	
 gb2sum	osx	pages.zh	
 gb2sum	osx	pages.zh_TW	
@@ -1421,9 +1421,9 @@ gchcon	osx	pages.zh_TW
 gchgrp	osx	pages	
 gchgrp	osx	pages.zh	
 gchgrp	osx	pages.zh_TW	
-gchmod	osx	pages	
-gchmod	osx	pages.zh	
-gchmod	osx	pages.zh_TW	
+gchmod	osx	pages	A.Readed
+gchmod	osx	pages.zh	A.Readed
+gchmod	osx	pages.zh_TW	A.Readed
 gchown	osx	pages	
 gchown	osx	pages.zh	
 gchown	osx	pages.zh_TW	
@@ -1481,9 +1481,9 @@ gdnsdomainname	osx	pages.zh
 gdnsdomainname	osx	pages.zh_TW	
 gdrive	common	pages	
 gdu	common	pages	
-gecho	osx	pages	
-gecho	osx	pages.zh	
-gecho	osx	pages.zh_TW	
+gecho	osx	pages	A.Readed
+gecho	osx	pages.zh	A.Readed
+gecho	osx	pages.zh_TW	A.Readed
 ged	osx	pages	
 ged	osx	pages.zh	
 ged	osx	pages.zh_TW	
@@ -1786,7 +1786,7 @@ git-switch	common	pages.zh
 git-symbolic-ref	common	pages	
 git-sync	common	pages	
 git-tag	common	pages	
-git-touch	common	pages	
+git-touch	common	pages	A.Readed
 git-undo	common	pages	
 git-unlock	common	pages	
 git-unpack-file	common	pages	
@@ -1856,9 +1856,9 @@ gmake	osx	pages.zh_TW
 gmd5sum	osx	pages	
 gmd5sum	osx	pages.zh	
 gmd5sum	osx	pages.zh_TW	
-gmkdir	osx	pages	
-gmkdir	osx	pages.zh	
-gmkdir	osx	pages.zh_TW	
+gmkdir	osx	pages	A.Readed
+gmkdir	osx	pages.zh	A.Readed
+gmkdir	osx	pages.zh_TW	A.Readed
 gmkfifo	osx	pages	
 gmkfifo	osx	pages.zh	
 gmkfifo	osx	pages.zh_TW	
@@ -2131,9 +2131,9 @@ gtimeout	osx	pages
 gtimeout	osx	pages.zh	
 gtimeout	osx	pages.zh_TW	
 gtop	common	pages	
-gtouch	osx	pages	
-gtouch	osx	pages.zh	
-gtouch	osx	pages.zh_TW	
+gtouch	osx	pages	A.Readed
+gtouch	osx	pages.zh	A.Readed
+gtouch	osx	pages.zh_TW	A.Readed
 gtr	osx	pages	
 gtr	osx	pages.zh	
 gtr	osx	pages.zh_TW	
@@ -2208,15 +2208,15 @@ gwhoami	osx	pages.zh_TW
 gwhois	osx	pages	
 gwhois	osx	pages.zh	
 gwhois	osx	pages.zh_TW	
-gxargs	osx	pages	
-gxargs	osx	pages.zh	
-gxargs	osx	pages.zh_TW	
+gxargs	osx	pages	A.Readed
+gxargs	osx	pages.zh	A.Readed
+gxargs	osx	pages.zh_TW	A.Readed
 gxl2gv	common	pages	
 gyb	common	pages	
 gyes	osx	pages	
 gyes	osx	pages.zh	
 gyes	osx	pages.zh_TW	
-gzip	common	pages	
+gzip	common	pages	A.Readed
 hadolint	common	pages	
 hakyll-init	common	pages	
 halt	linux	pages	
@@ -2624,8 +2624,8 @@ llvm-strings	common	pages
 llvm-strings	common	pages.zh	
 llvm-strings	common	pages.zh_TW	
 lmms	common	pages	
-ln	common	pages	
-ln	common	pages.zh	
+ln	common	pages	A.Readed
+ln	common	pages.zh	A.Readed
 lnav	linux	pages	
 loadkeys	linux	pages	
 loadtest	common	pages	
@@ -2669,9 +2669,9 @@ lrunzip	linux	pages
 lrzip	linux	pages	
 lrztar	linux	pages	
 lrzuntar	linux	pages	
-ls	common	pages	
-ls	common	pages.zh	
-ls	common	pages.zh_TW	
+ls	common	pages	A.Readed
+ls	common	pages.zh	A.Readed
+ls	common	pages.zh_TW	A.Readed
 lsattr	linux	pages	
 lsattr	linux	pages.zh	
 lsb_release	linux	pages	
@@ -2810,12 +2810,12 @@ mix	common	pages
 mixxx	common	pages	
 mk	common	pages	
 mkcert	common	pages	
-mkdir	common	pages	
-mkdir	common	pages.zh	
-mkdir	common	pages.zh_TW	
-mkdir	windows	pages	
-mkdir	windows	pages.zh	
-mkdir	windows	pages.zh_TW	
+mkdir	common	pages	A.Readed
+mkdir	common	pages.zh	A.Readed
+mkdir	common	pages.zh_TW	A.Readed
+mkdir	windows	pages	A.Readed
+mkdir	windows	pages.zh	A.Readed
+mkdir	windows	pages.zh_TW	A.Readed
 mkdocs	common	pages	
 mke2fs	linux	pages	
 mkfifo	common	pages	
@@ -3466,9 +3466,9 @@ pw-link	linux	pages
 pw-loopback	linux	pages	
 pw-play	linux	pages	
 pw-record	linux	pages	
-pwd	common	pages	
-pwd	common	pages.zh_TW	
-pwd	linux	pages	
+pwd	common	pages	A.Readed
+pwd	common	pages.zh_TW	A.Readed
+pwd	linux	pages	A.Readed
 pwdx	linux	pages	
 pwgen	common	pages	
 pwgen	common	pages.zh	
@@ -3855,7 +3855,7 @@ sfdp	common	pages
 sfdx	common	pages	
 sfill	linux	pages	
 sftp	common	pages	
-sh	common	pages	
+sh	common	pages	A.Readed
 sha1sum	common	pages	
 sha224sum	common	pages	
 sha256sum	common	pages	
@@ -4206,8 +4206,8 @@ top	osx	pages
 top	osx	pages.zh	
 topgrade	common	pages	
 topydo	common	pages	
-touch	common	pages	
-touch	common	pages.zh_TW	
+touch	common	pages	A.Readed
+touch	common	pages.zh_TW	A.Readed
 tox	common	pages	
 tpp	common	pages	
 tput	common	pages	
@@ -4238,8 +4238,8 @@ trashy	linux	pages
 travis	common	pages	
 trawl	common	pages	
 tred	common	pages	
-tree	common	pages	
-tree	common	pages.zh	
+tree	common	pages	A.Readed
+tree	common	pages.zh	A.Readed
 tree	windows	pages	
 tree	windows	pages.zh	
 tree	windows	pages.zh_TW	
@@ -4578,7 +4578,7 @@ x11docker	common	pages
 x11vnc	linux	pages	
 x_x	common	pages	
 xar	common	pages	
-xargs	common	pages	
+xargs	common	pages	A.Readed
 xartstorageremoted	osx	pages	
 xattr	osx	pages	
 xattr	osx	pages.zh	
