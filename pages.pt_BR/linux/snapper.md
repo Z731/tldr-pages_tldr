@@ -1,7 +1,7 @@
 # snapper
 
 > Ferramenta de gerenciamento de snapshots do sistema de arquivos.
-> Mais informações: <http://snapper.io/manpages/snapper.html>.
+> Mais informações: <https://snapper.io/manpages/snapper.html>.
 
 - Lista configurações de snapshots:
 

@@ -2,7 +2,7 @@
 
 > Delta encoding utility.
 > Often used for applying patches to binary files.
-> More information: <http://xdelta.org>.
+> More information: <https://xdelta.org>.
 
 - Apply a patch:
 

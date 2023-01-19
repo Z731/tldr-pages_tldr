@@ -17,4 +17,4 @@
 
 - Ping the web server on `host` using HTTP basic authentication:
 
-`httping -g http://{{host}} -U {{username}} -P {{password}}`
+`httping -g https://{{host}} -U {{username}} -P {{password}}`

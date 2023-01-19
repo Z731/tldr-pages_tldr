@@ -1,7 +1,7 @@
 # qmmp
 
 > An audio player.
-> More information: <http://qmmp.ylsoftware.com>.
+> More information: <https://qmmp.ylsoftware.com>.
 
 - Launch qmmp:
 

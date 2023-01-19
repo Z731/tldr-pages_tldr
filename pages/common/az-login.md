@@ -10,11 +10,11 @@
 
 - Log in with a service principal using a client secret:
 
-`az login --service-principal --username {{http://azure-cli-service-principal}} --passsword {{secret}} --tenant {{someone.onmicrosoft.com}}`
+`az login --service-principal --username {{https://azure-cli-service-principal}} --passsword {{secret}} --tenant {{someone.onmicrosoft.com}}`
 
 - Log in with a service principal using a client certificate:
 
-`az login --service-principal --username {{http://azure-cli-service-principal}} --password {{path/to/cert.pem}} --tenant {{someone.onmicrosoft.com}}`
+`az login --service-principal --username {{https://azure-cli-service-principal}} --password {{path/to/cert.pem}} --tenant {{someone.onmicrosoft.com}}`
 
 - Log in using a VM's system assigned identity:
 

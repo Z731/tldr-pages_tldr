@@ -43,7 +43,7 @@ Option             | Required?   | Meaning
 
 Clients MUST implement both the short and long version of an option.
 
-Additional decoration MAY be printed if the standard output is a [TTY](http://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example a page list MUST be formatted with 1 page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
+Additional decoration MAY be printed if the standard output is a [TTY](https://www.linusakesson.net/programming/tty/index.php). If not, then the output MUST not contain any additional decorations. For example a page list MUST be formatted with 1 page name per line (to enable easy manipulation using standard CLI tools such as `grep` etc.).
 
 Clients MAY support additional custom arguments and syntax not documented here.
 

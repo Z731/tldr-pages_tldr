@@ -13,7 +13,7 @@
 
 - Stream the largest file in a torrent, given as a torrent URL, to VLC:
 
-`peerflix "{{http://example.net/music.torrent}}" --vlc`
+`peerflix "{{https://example.net/music.torrent}}" --vlc`
 
 - Stream the largest file in a torrent to MPlayer, with subtitles:
 

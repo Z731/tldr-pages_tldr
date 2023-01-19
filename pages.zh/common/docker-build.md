@@ -29,4 +29,4 @@
 
 - 传入自定义变量用于打包：
 
-`docker build --build-arg {{HTTP_PROXY=http://10.20.30.2:1234}} --build-arg {{FTP_PROXY=http://40.50.60.5:4567}} .`
+`docker build --build-arg {{HTTP_PROXY=https://10.20.30.2:1234}} --build-arg {{FTP_PROXY=https://40.50.60.5:4567}} .`

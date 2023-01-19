@@ -29,7 +29,7 @@
 
 - Print all newest Stack Overflow questions with title and URL using pattern matching on their RSS feed:
 
-`xidel {{http://stackoverflow.com/feeds}} --extract "{{<entry><title>{title:=.}</title><link>{uri:=@href}</link></entry>+}}"`
+`xidel {{https://stackoverflow.com/feeds}} --extract "{{<entry><title>{title:=.}</title><link>{uri:=@href}</link></entry>+}}"`
 
 - Check for unread Reddit mail, Webscraping, combining CSS, XPath, JSONiq, and automatically form evaluation:
 

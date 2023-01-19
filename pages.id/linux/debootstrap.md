@@ -5,7 +5,7 @@
 
 - Membuat sistem Debian stable didalam direktori `debian-root`:
 
-`sudo debootstrap stable {{jalan/ke/debian-root/}} http://deb.debian.org/debian`
+`sudo debootstrap stable {{jalan/ke/debian-root/}} https://deb.debian.org/debian`
 
 - Membuat sistem minimal termasuk hanya paket yang diperlukan:
 

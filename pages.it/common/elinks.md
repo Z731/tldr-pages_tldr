@@ -1,7 +1,7 @@
 # elinks
 
 > Un browser testuale simile a lynx.
-> Maggiori informazioni: <http://elinks.or.cz>.
+> Maggiori informazioni: <https://elinks.or.cz>.
 
 - Avvia elinks:
 

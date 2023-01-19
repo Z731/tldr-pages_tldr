@@ -5,7 +5,7 @@
 
 - 在 `debian-root` 目录中创建一个 `Debian` 稳定分支系统：
 
-`sudo debootstrap stable {{path/to/debian-root/}} http://deb.debian.org/debian`
+`sudo debootstrap stable {{path/to/debian-root/}} https://deb.debian.org/debian`
 
 - 使用本地镜像在 `focal-root` 目录中创建一个 `Ubuntu 20.04` 系统：
 

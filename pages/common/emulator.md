@@ -29,7 +29,7 @@
 
 - Start an emulator, making all TCP connections through a specified HTTP/HTTPS proxy (port number is required):
 
-`emulator -avd {{name}} -http-proxy {{http://example.com:80}}`
+`emulator -avd {{name}} -http-proxy {{https://example.com:80}}`
 
 - Start an emulator with a given SD card partition image file:
 
